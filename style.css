@@ -4,7 +4,26 @@ body {
   margin: 0;
 }
 
-p {
+.container {
+  width: 400px;
+  margin: 32px auto 0;
+  border: 8px solid blue;
+}
+
+.box-1 {
+  width: 100px;
+  height: 100px;
   background-color: pink;
-  margin: 0;
+}
+
+.box-2 {
+  width: 100px;
+  height: 50px;
+  background-color: skyblue;
+}
+
+.box-3 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
 }
