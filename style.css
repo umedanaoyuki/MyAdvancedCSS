@@ -20,6 +20,9 @@ body {
   width: 100px;
   height: 50px;
   background-color: skyblue;
+  position: relative;
+  top: -16px;
+  left: 16px;
 }
 
 .box-3 {
