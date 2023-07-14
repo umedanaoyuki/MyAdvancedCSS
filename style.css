@@ -17,4 +17,7 @@ a {
   padding: 8px;
   /* margin: 8px; */
   margin: 0 auto;
+  /* display: block; */
+  /* display: inline; */
+  display: inline-block;
 }
