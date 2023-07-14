@@ -4,10 +4,13 @@ body {
   margin: 0;
 }
 
+p {
+  background-color: pink;
+}
+
 img {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
   object-fit: cover;
-  opacity: 0.3;
+  vertical-align: bottom;
 }
