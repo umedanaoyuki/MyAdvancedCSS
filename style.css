@@ -11,4 +11,10 @@ p {
 
 a {
   background-color: skyblue;
+  width: 80px;
+  height: 80px;
+  border: 8px solid blue;
+  padding: 8px;
+  /* margin: 8px; */
+  margin: 0 auto;
 }
