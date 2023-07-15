@@ -6,8 +6,7 @@ body {
 
 header {
   height: 160px;
-  background-color: pink;
-  background-image: url(logo.png);
+  background: url(logo.png) center/cover pink;
 }
 
 h1 {
