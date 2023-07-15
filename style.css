@@ -1,15 +1,20 @@
 @charset "utf-8";
 
-ul {
+body {
   margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
-li {
-  background: lightgray;
-  padding: 8px;
-  border-radius: 8px;
-  margin-bottom: 3px;
-  width: 320px;
+section {
+  background-color: pink;
+  max-width: 600px;
+  margin: 0 auto;
+  width: calc(100% - 16px - 16px);
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
