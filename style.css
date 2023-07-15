@@ -1,11 +1,15 @@
 @charset "utf-8";
 
+
+:root {
+  --brand-color: orange;
+}
+
 body {
   margin: 0;
 }
 
 section {
-  background-color: pink;
   max-width: 600px;
   margin: 0 auto;
   width: calc(100% - 16px - 16px);
@@ -13,11 +17,10 @@ section {
 
 h1 {
   margin: 0;
-  background-color: skyblue;
-  color: rgb(0 0 255);
+  color: var(--brand-color);
+  border-bottom: 2px solid var(--brand-color);
 }
 
 p {
   margin: 0;
-  background-color: orange;
 }
