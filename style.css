@@ -4,13 +4,15 @@ body {
   margin: 0;
 }
 
-p {
+header {
+  height: 160px;
   background-color: pink;
+  background-image: url(logo.png);
 }
 
-img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  vertical-align: bottom;
+h1 {
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+  line-height: 160px;
 }
